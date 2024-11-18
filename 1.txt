@@ -1,0 +1,42 @@
+## **1. Installing Dart SDK**
+1. **Download Dart:**
+   - Visit [Dart Downloads](https://dart.dev/get-dart).
+   - Click **Windows** and download the `.msi` installer.
+2. **Install Dart:**
+   - Run the `.msi` file and follow the setup instructions.
+   - Ensure the **Add Dart to PATH** checkbox is selected.
+3. **Verify Installation:**
+   - Open Command Prompt and type:
+     ```bash
+     dart --version
+     ```
+
+---
+
+## **2. Installing Flutter SDK**
+1. **Download Flutter:**
+   - Visit [Flutter SDK](https://flutter.dev/docs/get-started/install).
+   - Download the **Windows** ZIP file.
+2. **Extract Files:**
+   - Extract the ZIP file to a suitable location (e.g., `C:\flutter`).
+3. **Set Path Variable:**
+   - Add `C:\flutter\bin` to the system PATH:
+     - Search **Environment Variables** in Windows.
+     - Edit **Path** > Add `C:\flutter\bin`.
+4. **Verify Installation:**
+   - Open Command Prompt and type:
+     ```bash
+     flutter --version
+     ```
+
+---
+
+## **3. Install Additional Tools**
+1. **Android Studio (Optional):**
+   - Install [Android Studio](https://developer.android.com/studio) for Android app development.
+   - Open Android Studio > **Settings > Plugins** > Install the **Flutter Plugin**.
+2. **Flutter Doctor:**
+   - Run the following command to check for required components and install missing dependencies:
+     ```bash
+     flutter doctor
+     ```

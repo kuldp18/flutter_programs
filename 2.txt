@@ -1,0 +1,12 @@
+1. Download **Android Studio** from the official site: [Android Studio Download](https://developer.android.com/studio).  
+2. Run the installer and follow the on-screen instructions.  
+3. During installation, ensure the boxes for **Android SDK**, **Android Virtual Device (AVD)**, and **Performance (HAXM)** are checked.  
+4. Launch Android Studio after installation.  
+5. Complete the **Setup Wizard** to install the necessary SDK tools.  
+6. Open Android Studio and go to **File > Settings > Plugins** (or **Preferences** on macOS).  
+7. In the **Plugins** section, search for **Flutter** in the marketplace and click **Install**.  
+8. When prompted, it will also install the **Dart Plugin**. Confirm the installation.  
+9. Restart Android Studio to apply the changes.  
+10. Verify the Flutter plugin by creating a new Flutter project:  
+    - Click **New Flutter Project** on the welcome screen.  
+    - Configure the SDK path and follow the steps to create a sample project.  

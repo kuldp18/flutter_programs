@@ -1,0 +1,15 @@
+1. Download Dart from [Dart Downloads](https://dart.dev/get-dart) and choose the Windows `.msi` installer.  
+2. Run the `.msi` file and ensure the "Add Dart to PATH" checkbox is selected during installation.  
+3. Verify Dart installation by opening Command Prompt and typing `dart --version`.  
+4. Download Flutter from [Flutter SDK](https://flutter.dev/docs/get-started/install) as a ZIP file for Windows.  
+5. Extract the ZIP file to a location like `C:\flutter`.  
+6. Add `C:\flutter\bin` to the system PATH:  
+   - Search **Environment Variables** in the Windows search bar.  
+   - Click on **Edit the system environment variables**.  
+   - Under **System Properties**, click **Environment Variables**.  
+   - Find and edit the **Path** variable to include `C:\flutter\bin`.  
+7. Verify Flutter installation by opening Command Prompt and typing `flutter --version`.  
+8. Optionally, install Android Studio if you plan to develop for Android:  
+   - Download it from [Android Studio](https://developer.android.com/studio).  
+   - Open Android Studio, go to **Settings > Plugins**, and install the **Flutter Plugin**.  
+9. Run `flutter doctor` in Command Prompt to check for required tools and dependencies, and install any missing ones as prompted.  
